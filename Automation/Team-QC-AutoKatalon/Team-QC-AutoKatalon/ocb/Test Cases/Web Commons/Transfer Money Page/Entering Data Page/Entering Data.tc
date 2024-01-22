@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Entering Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab6ace54-5f25-4989-82da-0916e2f75414</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f0972c76-bfc6-4392-94a5-64e70461380c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>59a1458c-97cb-4ef8-ad70-5288136adff3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f0972c76-bfc6-4392-94a5-64e70461380c</id>
+      <masked>false</masked>
+      <name>transferAmount</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.description</defaultValue>
+      <description></description>
+      <id>59a1458c-97cb-4ef8-ad70-5288136adff3</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

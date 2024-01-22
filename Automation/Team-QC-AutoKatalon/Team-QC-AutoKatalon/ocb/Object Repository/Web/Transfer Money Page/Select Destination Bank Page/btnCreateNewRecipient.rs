@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnCreateNewRecipient</name>
+   <tag></tag>
+   <elementGuidId>6010b2c8-d3f2-4482-9b96-8a3926370d39</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[contains(text(), &quot;Ngân hàng khác&quot;)])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.second-btn.payment-recipient-top-row</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>dca9a5cd-2129-4276-8f77-56429b6aff5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ab11268c-84cd-424b-8160-19d9378df532</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>onRecipientCreate()</value>
+      <webElementGuid>304b532e-f495-4974-92b8-1eea072d8f9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn second-btn payment-recipient-top-row</value>
+      <webElementGuid>b423996e-496b-4d9a-920c-94d4f47a379b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tạo mới</value>
+      <webElementGuid>d3503a24-4b9d-42c6-b91a-1160bbe004d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;animate-on am-fade-and-scale drawer-content&quot;]/eb-ocb-full-screen-widget[1]/div[@class=&quot;payments_miniapp&quot;]/div[1]/div[1]/div[@class=&quot;eb-screen-content&quot;]/div[1]/div[@class=&quot;animate-on am-fade-and-scale&quot;]/div[1]/div[@class=&quot;ocb-design&quot;]/div[@class=&quot;payments-recipients-list&quot;]/form[@class=&quot;ng-valid ng-dirty ng-valid-parse&quot;]/div[@class=&quot;form-row-wrapper&quot;]/div[@class=&quot;d-flex justify-content-end payment-recipient-top-row&quot;]/button[@class=&quot;btn second-btn payment-recipient-top-row&quot;]</value>
+      <webElementGuid>8f84deac-40d4-4982-8f26-7d706ba66fdd</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

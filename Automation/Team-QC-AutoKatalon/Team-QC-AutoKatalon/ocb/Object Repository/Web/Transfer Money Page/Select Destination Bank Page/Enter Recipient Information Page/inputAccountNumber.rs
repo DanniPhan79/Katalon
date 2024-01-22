@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputAccountNumber</name>
+   <tag></tag>
+   <elementGuidId>320b6449-4c0c-4687-bd1e-e25c8e3b8ee1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ui-select-flat.ui-select-account.control-has-indicator.ng-not-empty.ng-valid.ng-valid-required.ng-touched > div.ui-select-container.ui-select-bootstrap.dropdown.form-control > div.ui-select-match > span.ui-select-toggle > span.ui-select-match-text.pull-left</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@name='recipientAccountNo']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3be7bd21-87a7-48a1-b49e-0886b3b91d1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-hide</name>
+      <type>Main</type>
+      <value>$select.isEmpty()</value>
+      <webElementGuid>fff9c1e1-7042-4a73-8a45-b593de814e8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-select-match-text pull-left</value>
+      <webElementGuid>a71fd782-b245-467b-bbf6-d9a5e742298a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>{'ui-select-allow-clear': $select.allowClear &amp;&amp; !$select.isEmpty()}</value>
+      <webElementGuid>a7f0d2d3-7a95-4fcc-ac52-f2d4ab8cb89f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>56fbe6ad-3680-413d-b96a-a1fd7adf770b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 0023100023522006</value>
+      <webElementGuid>04fa6896-d892-4d04-85db-e2e398fb7fb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accounts&quot;)/div[@class=&quot;widget-tile-content&quot;]/div[@class=&quot;widget-content-inner&quot;]/div[@class=&quot;horizontal-split-panels&quot;]/section[@class=&quot;hover_background&quot;]/div[@class=&quot;row widget-content-paddings&quot;]/div[@class=&quot;col-xs-10&quot;]/div[@class=&quot;widget-configuration&quot;]/div[@class=&quot;product_list&quot;]/div[@class=&quot;product_list__items short_dropdown&quot;]/div[@class=&quot;max-height-select&quot;]/div[@class=&quot;ui-select-flat ui-select-account control-has-indicator ng-not-empty ng-valid ng-valid-required ng-touched&quot;]/div[@class=&quot;ui-select-container ui-select-bootstrap dropdown form-control&quot;]/div[@class=&quot;ui-select-match&quot;]/span[@class=&quot;ui-select-toggle&quot;]/span[@class=&quot;ui-select-match-text pull-left&quot;]</value>
+      <webElementGuid>c15a36c8-305f-474b-973f-fa12a4588118</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

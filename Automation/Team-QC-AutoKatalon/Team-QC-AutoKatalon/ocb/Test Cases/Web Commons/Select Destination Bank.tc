@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select Destination Bank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e31c73bd-bfd1-41d6-b193-b98db885fc01</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a53084ac-aa3e-4555-aa34-052384e7fbae</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.bankName</defaultValue>
+      <description></description>
+      <id>a53084ac-aa3e-4555-aa34-052384e7fbae</id>
+      <masked>false</masked>
+      <name>bankName</name>
+   </variable>
+</TestCaseEntity>

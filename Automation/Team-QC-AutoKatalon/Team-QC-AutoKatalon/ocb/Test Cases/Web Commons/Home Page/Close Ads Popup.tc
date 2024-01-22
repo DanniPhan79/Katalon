@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Close Ads Popup</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f429ee9d-3f6c-424e-9f4b-d5dbc7734c75</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9f88a131-01c5-41f3-9699-1f436312930a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.G_shortTimeout</defaultValue>
+      <description></description>
+      <id>9f88a131-01c5-41f3-9699-1f436312930a</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
+</TestCaseEntity>

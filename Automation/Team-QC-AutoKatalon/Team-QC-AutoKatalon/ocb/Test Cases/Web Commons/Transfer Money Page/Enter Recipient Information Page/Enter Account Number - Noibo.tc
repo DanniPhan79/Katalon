@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Enter Account Number - Noibo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f36d6a00-cdd6-43d7-9bda-d7d4ae0c9d21</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>381a7fb1-e93f-4b6b-8cba-9c644e87bbd8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f144473d-021c-4762-a79a-87eda9b571a2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>381a7fb1-e93f-4b6b-8cba-9c644e87bbd8</id>
+      <masked>false</masked>
+      <name>accountNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>f144473d-021c-4762-a79a-87eda9b571a2</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
+</TestCaseEntity>

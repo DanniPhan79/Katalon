@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Open side menu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9081851-56a4-4878-aad3-785ee44b1328</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>912b1b1d-1460-4a4e-828d-cc3951bc9cae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a393ebd7-3548-4603-ba65-0a1f20b698b9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.timeout</defaultValue>
+      <description></description>
+      <id>912b1b1d-1460-4a4e-828d-cc3951bc9cae</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a393ebd7-3548-4603-ba65-0a1f20b698b9</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
+</TestCaseEntity>

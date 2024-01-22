@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Data Verification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>35852891-bab0-4105-8a44-a8eb53dc6d85</testCaseGuid>
+   <variable>
+      <defaultValue>'LE QUOC THAI'</defaultValue>
+      <description></description>
+      <id>4b1585cd-80ef-43f1-939b-de51d2907d2f</id>
+      <masked>false</masked>
+      <name>fromAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>'2270 0637 9'</defaultValue>
+      <description></description>
+      <id>3f6c59af-e3c6-4826-a6a4-f5d28b385e76</id>
+      <masked>false</masked>
+      <name>recipientAccount</name>
+   </variable>
+   <variable>
+      <defaultValue>'LE QUOC THAI'</defaultValue>
+      <description></description>
+      <id>3260e2c9-2f92-45fe-b8a6-232821ab0cf3</id>
+      <masked>false</masked>
+      <name>recipientName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ngân hàng TMCP Á Châu'</defaultValue>
+      <description></description>
+      <id>5dd0f4aa-7d05-4e1b-81be-5e8288dc1fd3</id>
+      <masked>false</masked>
+      <name>bankName</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description></description>
+      <id>d7534f8e-b21c-45a5-9cda-40ea53367d5c</id>
+      <masked>false</masked>
+      <name>fee</name>
+   </variable>
+   <variable>
+      <defaultValue>'20,000'</defaultValue>
+      <description></description>
+      <id>2ba297b7-1691-4634-8bcd-51fd86c91108</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>'TRANSFER MONEY'</defaultValue>
+      <description></description>
+      <id>ea73ba21-44d8-45cd-8cf2-550c1738a4ad</id>
+      <masked>false</masked>
+      <name>description</name>
+   </variable>
+</TestCaseEntity>

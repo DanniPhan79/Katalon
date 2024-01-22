@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>buttonSendMoney - noibo</name>
+   <tag></tag>
+   <elementGuidId>3bdb8f5d-65e2-41ce-9b64-d7178479da0d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[starts-with(@class, 'transfer-information')]/button[contains(text(), 'Tiếp tục')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.bd-form-footer__button.bd-form-footer__button--positive.bd-button__primary.bd-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ee6260a5-b98d-4896-8e20-9aac624e1e2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bd-form-footer__button bd-form-footer__button--positive bd-button__primary bd-button</value>
+      <webElementGuid>5fcba615-8668-4a4a-87ff-7342fd40df1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>eb-analytics</name>
+      <type>Main</type>
+      <value>{label:'?parent|?text'}</value>
+      <webElementGuid>7c65c742-8b66-4112-8e50-4bc95933c0ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-show</name>
+      <type>Main</type>
+      <value>activeStep.id === 'verify' &amp;&amp; $params.visibility.accept</value>
+      <webElementGuid>1637c59a-87e7-4919-9e92-6ab24361be40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>eb-single-click</name>
+      <type>Main</type>
+      <value>moveNext()</value>
+      <webElementGuid>94a50415-0bf3-4c4f-9789-7a5a11766650</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>231c52fb-12e0-415a-81ac-9d85c1a8b14d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Chấp nhận</value>
+      <webElementGuid>f5cce66d-c607-44b0-be0c-354f04d1855f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;animate-on am-fade-and-scale drawer-content&quot;]/eb-ocb-full-screen-widget[1]/div[@class=&quot;payments_miniapp&quot;]/div[1]/div[1]/div[@class=&quot;eb-screen-content&quot;]/div[1]/div[@class=&quot;animate-on am-fade-and-scale&quot;]/div[@class=&quot;rb-content-view--framed rb-payments-new form fast-payment rb-content-view&quot;]/div[@class=&quot;rb-content-view__placeholder&quot;]/div[@class=&quot;rb-content-view__content&quot;]/div[@class=&quot;rb-content-view__inner&quot;]/section[2]/div[@class=&quot;bd-form-panel--responsive bd-form-panel&quot;]/div[@class=&quot;rb-multistep-form rb-multistep-form-step-verify&quot;]/div[3]/div[@class=&quot;bd-form-footer--stackable form-btm form-footer&quot;]/div[@class=&quot;right mobile-no-float&quot;]/button[@class=&quot;bd-form-footer__button bd-form-footer__button--positive bd-button__primary bd-button&quot;]</value>
+      <webElementGuid>332fe243-e99f-42ae-a601-0efb5e1ab4f2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

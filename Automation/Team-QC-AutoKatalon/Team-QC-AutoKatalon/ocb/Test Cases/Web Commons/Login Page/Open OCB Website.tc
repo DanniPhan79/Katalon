@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Open OCB Website</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>42a129f9-6018-499c-a133-50df39751897</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b13a7f1c-1f0a-4dac-84e1-2a9ef147f571</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b13a7f1c-1f0a-4dac-84e1-2a9ef147f571</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>isNumber</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>647f0943-fc76-4278-abf6-811957ccc08a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>78e0e898-423e-4397-a976-22f6daf76b73</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Transaction ID 12345'</defaultValue>
+      <description></description>
+      <id>78e0e898-423e-4397-a976-22f6daf76b73</id>
+      <masked>false</masked>
+      <name>value</name>
+   </variable>
+</TestCaseEntity>

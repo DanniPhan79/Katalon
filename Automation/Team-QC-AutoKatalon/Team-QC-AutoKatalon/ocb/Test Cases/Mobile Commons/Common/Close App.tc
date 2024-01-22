@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Close App</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>17864f8d-1363-4854-8a30-2937e35a3500</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ee7c8161-d7a2-4d1e-8f42-f6e8bb1fbaf7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>be701ba7-da09-4938-aff9-6e08eefbded0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.AppPackageId</defaultValue>
+      <description></description>
+      <id>ee7c8161-d7a2-4d1e-8f42-f6e8bb1fbaf7</id>
+      <masked>false</masked>
+      <name>appId</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.ChromeAppId</defaultValue>
+      <description></description>
+      <id>be701ba7-da09-4938-aff9-6e08eefbded0</id>
+      <masked>false</masked>
+      <name>chromeAppId</name>
+   </variable>
+</TestCaseEntity>

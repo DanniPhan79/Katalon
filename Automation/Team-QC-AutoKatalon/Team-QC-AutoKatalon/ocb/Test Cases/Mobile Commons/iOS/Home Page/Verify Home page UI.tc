@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Home page UI</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b90df75-ae11-4bdb-8dbb-53e33a2816e7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>85133c7f-8201-4919-ad5a-e343a6ac29c8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7bb7c083-6819-48a9-bad0-104dbd6cf574</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.timeout</defaultValue>
+      <description></description>
+      <id>85133c7f-8201-4919-ad5a-e343a6ac29c8</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7bb7c083-6819-48a9-bad0-104dbd6cf574</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
+</TestCaseEntity>

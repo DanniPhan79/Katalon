@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>random in list</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3795ffa3-3d0c-4c35-8f9c-007140fb7984</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f68aee00-8b76-4fab-aa9e-08c98379752c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['1', '2']</defaultValue>
+      <description></description>
+      <id>f68aee00-8b76-4fab-aa9e-08c98379752c</id>
+      <masked>false</masked>
+      <name>values</name>
+   </variable>
+</TestCaseEntity>

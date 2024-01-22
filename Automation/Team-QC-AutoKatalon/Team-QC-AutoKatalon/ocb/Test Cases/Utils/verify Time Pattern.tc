@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify Time Pattern</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>683e16a4-ad76-4db4-a314-74c61ce5af1c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>771df881-de86-4402-b308-58c2c9bb7af8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'11/08/2022 09:55:12'</defaultValue>
+      <description></description>
+      <id>771df881-de86-4402-b308-58c2c9bb7af8</id>
+      <masked>false</masked>
+      <name>time</name>
+   </variable>
+</TestCaseEntity>

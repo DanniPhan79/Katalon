@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get And Enter OTP To Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd251c09-5f37-4518-802b-727afe5dfcb4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8ff5c33c-2c2c-44b7-a81a-c38de91cbfee</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4534f901-0cbb-43d7-bf65-8d93c180d261</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d161ad8-fb54-4dce-af7f-549975b2035e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e4e54a62-2d26-40b7-8702-b775f5e99039</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestData('Get OTP').getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>4b011437-095c-42c0-a460-220af5de7204</id>
+      <masked>false</masked>
+      <name>urlGetOtp</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Get OTP').getValue(2, 1)</defaultValue>
+      <description></description>
+      <id>2f2f2da6-1381-4c8d-8842-f7142c9dd42c</id>
+      <masked>false</masked>
+      <name>soDt</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Get OTP').getValue(3, 1)</defaultValue>
+      <description></description>
+      <id>77bc2739-043c-4a1c-a97c-6b1d511abd7f</id>
+      <masked>false</masked>
+      <name>msgOTPValid</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7d161ad8-fb54-4dce-af7f-549975b2035e</id>
+      <masked>false</masked>
+      <name>Otp</name>
+   </variable>
+</TestCaseEntity>

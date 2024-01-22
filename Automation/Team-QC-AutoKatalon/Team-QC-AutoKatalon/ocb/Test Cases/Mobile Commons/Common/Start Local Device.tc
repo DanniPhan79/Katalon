@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Start Local Device</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6ca6c5b-1273-4334-a01c-904f614d33e4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>684687eb-f338-40f7-b770-39997fdde522</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.AppPackageId</defaultValue>
+      <description></description>
+      <id>684687eb-f338-40f7-b770-39997fdde522</id>
+      <masked>false</masked>
+      <name>appId</name>
+   </variable>
+</TestCaseEntity>

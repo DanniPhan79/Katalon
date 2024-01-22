@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Terminate App</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1eeb4274-5eea-4019-a968-7b553b0f9257</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7de2c866-2080-49ba-9c0e-56436d2786bc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.BundleIdNewApp</defaultValue>
+      <description></description>
+      <id>7de2c866-2080-49ba-9c0e-56436d2786bc</id>
+      <masked>false</masked>
+      <name>appId</name>
+   </variable>
+</TestCaseEntity>

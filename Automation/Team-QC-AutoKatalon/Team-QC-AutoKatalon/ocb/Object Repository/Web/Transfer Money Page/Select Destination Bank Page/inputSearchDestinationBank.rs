@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>inputSearchDestinationBank</name>
+   <tag></tag>
+   <elementGuidId>09fb6728-17e1-497b-9aea-9582daf9067d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@placeholder = &quot;Nhập tên ngân hàng&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.search-wide.ng-pristine.ng-untouched.ng-valid.ng-empty</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>2beca190-2e3e-4852-b1eb-1be2d96883b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>ab6b54ac-53b9-4393-901f-486bc54643d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>recipientSearch.$</value>
+      <webElementGuid>310d3607-e74e-4455-a0ce-83420c86c99e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control search-wide ng-pristine ng-untouched ng-valid ng-empty</value>
+      <webElementGuid>99d2a7dc-8bb0-4221-aea2-e515c0d248e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Nội dung tìm</value>
+      <webElementGuid>c0441f1b-a90d-4683-a194-f44b35c8c0cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>422c6fea-a064-4380-97ee-9e1647c7dcc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;animate-on am-fade-and-scale drawer-content&quot;]/eb-ocb-full-screen-widget[1]/div[@class=&quot;payments_miniapp&quot;]/div[1]/div[1]/div[@class=&quot;eb-screen-content&quot;]/div[1]/div[@class=&quot;animate-on am-fade-and-scale&quot;]/div[1]/section[@class=&quot;payments-recipients&quot;]/div[@class=&quot;rb-content-view--framed form rb-content-view&quot;]/div[@class=&quot;rb-content-view__placeholder&quot;]/div[@class=&quot;rb-content-view__content&quot;]/div[@class=&quot;rb-content-view__inner&quot;]/div[@class=&quot;bd-form-panel--responsive bd-form-panel&quot;]/div[@class=&quot;rb-multistep-form rb-multistep-form-step-fill&quot;]/div[@class=&quot;row bd-form-content&quot;]/ng-transclude[1]/div[1]/div[1]/rb-payment-recipients-fill[1]/form[@class=&quot;ng-pristine ng-invalid ng-invalid-required&quot;]/div[@class=&quot;ocb-design bd-form&quot;]/rb-recipient-location[1]/div[2]/div[@class=&quot;form-row control-block search-block&quot;]/span[@class=&quot;search-ip&quot;]/input[@class=&quot;form-control search-wide ng-pristine ng-untouched ng-valid ng-empty&quot;]</value>
+      <webElementGuid>15c282f3-3d91-4c18-990f-bd45abbc3b36</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

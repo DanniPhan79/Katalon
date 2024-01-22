@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtAmount</name>
+   <tag></tag>
+   <elementGuidId>ac30de5e-689e-45dc-9388-02d27f996cfb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[@class='bd-amount__value mg-right'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e98b1237-c796-4f96-a8bf-c6e5fdacd24a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>eb-analytics</name>
+      <type>Main</type>
+      <value>{event: 'click', action:'Click', category:'=Menu', label:item.title}</value>
+      <webElementGuid>b566c569-eea1-4bf2-a5f5-40ef5cb98d0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Chuyển nhận tiền</value>
+      <webElementGuid>0e09c8bf-37d6-4d05-8ff8-470d4be76e0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;side-nav&quot;)/ul[@class=&quot;nav-ul&quot;]/li[@class=&quot;active&quot;]/div[@class=&quot;ahref&quot;]/span[2]</value>
+      <webElementGuid>2c6c26e3-7262-41fb-877d-0a38f571238b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

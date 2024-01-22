@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify account info</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e13de09f-21c3-4d40-8fd0-2ec5370060d2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c08c091a-f1de-484b-a60c-b0532147b2e8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>71d56626-eb49-4a6a-8e42-26fc331c0c89</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.timeout</defaultValue>
+      <description></description>
+      <id>c08c091a-f1de-484b-a60c-b0532147b2e8</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>71d56626-eb49-4a6a-8e42-26fc331c0c89</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
+</TestCaseEntity>

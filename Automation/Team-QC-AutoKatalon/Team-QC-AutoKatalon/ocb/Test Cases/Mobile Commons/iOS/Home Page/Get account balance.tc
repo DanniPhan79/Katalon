@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get account balance</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7659bab9-f7f2-4be0-83e9-5c386c5c6227</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7e9ce9ca-a210-421d-912d-1c47bdc2ffbd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.timeout</defaultValue>
+      <description></description>
+      <id>7e9ce9ca-a210-421d-912d-1c47bdc2ffbd</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnLogout</name>
+   <tag></tag>
+   <elementGuidId>2a11c2c1-699b-465b-a311-32a690c7db90</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.logout_action</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class='user-thumb logout_user']//*[@class='logout_action']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ffa30064-fe66-400c-9acd-b3a0b96c3f24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>logout()</value>
+      <webElementGuid>5e056303-545f-4a5e-b63b-aa8c65003b5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>logout_action</value>
+      <webElementGuid>79e702c5-f4dd-469d-bccd-4c261e10472d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>eb-analytics</name>
+      <type>Main</type>
+      <value>{event:'click', action:'Click', category:'=Menu', label:'?text'}</value>
+      <webElementGuid>aefaea2b-e90d-4ee5-8e74-f276222a73c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Đăng xuất</value>
+      <webElementGuid>0bd27cae-2a5c-457f-b889-65fc7581eb98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;rb-header rb-header-content&quot;]/div[@class=&quot;rb-header-content-actions&quot;]/div[@class=&quot;action-block hide-on-sp&quot;]/div[@class=&quot;user-thumb logout_user&quot;]/a[@class=&quot;logout_action&quot;]</value>
+      <webElementGuid>e113d3f8-5d74-4d24-a752-3e275bcd8686</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

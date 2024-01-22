@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnGetOtpLogin</name>
+   <tag></tag>
+   <elementGuidId>8835576c-092f-4615-9f4e-b1fcd2715d5a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class='otp-btn']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.otp-btn</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ad721ddc-4231-4da5-9869-95da37fd63d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>otp-btn</value>
+      <webElementGuid>c7def5ff-e037-45d8-b4f6-7107e288380c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>sendOTP(otpTypeCode.CURRENT_AUTHTYPE)</value>
+      <webElementGuid>7bd4afd2-87f3-4cf0-a7f0-eab943ff5881</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>sendOTPFlag</value>
+      <webElementGuid>a3e8d3c8-f45e-437a-a06e-1ac7fb59609d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lấy OTP</value>
+      <webElementGuid>c226d2ac-5ae7-4960-b207-f1cab2c23816</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;background&quot;)/div[@class=&quot;main__contain&quot;]/div[@class=&quot;main__contain-body&quot;]/div[@class=&quot;main__contain-input&quot;]/div[@class=&quot;main__contain-input-body&quot;]/div[@class=&quot;main__contain-input-form&quot;]/div[@class=&quot;logon-step-animation-container next-animation&quot;]/div[1]/div[@class=&quot;animate-on logon-step-animation&quot;]/div[@class=&quot;popup-device-area&quot;]/div[@class=&quot;popup-device&quot;]/div[2]/div[@class=&quot;content-popup-login&quot;]/div[@class=&quot;otp-block margin-bottom-15&quot;]/button[@class=&quot;otp-btn&quot;]</value>
+      <webElementGuid>4c8024c9-51d6-4045-8130-c6c93cde948a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

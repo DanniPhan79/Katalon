@@ -1,0 +1,54 @@
+
+
+############## phan them cua QA, ignore auto-gen files of Katalon
+.settings/
+.project
+build.gradle
+Reports/
+~$*.xlsx
+TempTestCase*.groovy
+TempTestSuite*.groovy
+CustomKeywords.groovy
+GlobalVariable.groovy
+
+#Comment/Xóa 2 dòng dưới này Nếu muốn keep change KatalonStudio mỗi lần đổi Settings > TestOps,TestCloud
+#**/settings/internal/
+#**/settings/external/
+
+#Comment/Xóa dòng này Nếu muốn keep change KatalonStudio mỗi lần đổi Settings > Project Information
+#*.prj
+
+#Cho máy MAC
+**/.DS_Store
+
+############## file .gitignore default cua katalon
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+**.DS_Store
+
+.cache/*
+.classpath
+/bin/

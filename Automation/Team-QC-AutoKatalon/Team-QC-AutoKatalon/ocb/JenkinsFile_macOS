@@ -1,0 +1,74 @@
+pipeline {
+    // agent any
+    agent {label 'jenkinsSlave'}
+    
+    environment {
+      GITLAB_CREDS = credentials('gitlab_creds')
+    }
+    
+    options {
+        skipDefaultCheckout()
+        // Only keep the 10 most recent builds
+        buildDiscarder(logRotator(daysToKeepStr: '30', numToKeepStr: '10', artifactNumToKeepStr: '10'))
+    }
+    
+    parameters {
+        string(name:'GITLAB_BRANCH', defaultValue: 'OCB_UAT', description:'The URL of the source Gitlab repository to use.', trim: true)
+        string(name:'GITLAB_URL',  defaultValue: 'http://lamnt21:Wfgrw4LGa6HeYCQwkJE_@ocbgit.ocb.vn/ebanking/NewMobileApp/omni-katalon.git', description:'The branch in the source Gitlab repository to use.', trim: true)
+        string(name:'K_API_KEY',  defaultValue: '3b93d77e-2d37-421a-9ca9-4810a7b9c844', description:'KATALON API KEY', trim: true)
+        string(name:'K_ORG_ID',  defaultValue: '645286', description:'KATALON ORG ID', trim: true)
+        string(name:'K_BROWSER_TYPE',  defaultValue: 'iOS', description:'KATALON browserType argument', trim: true)
+        string(name:'K_Device_Id',  defaultValue: '00008020-000E01DE2212002E', description:'KATALON deviceId argument', trim: true)
+        string(name:'K_TEST_SUITE_NAME',  defaultValue: 'Regression test - iOS', description:'KATALON Test Suite name', trim: true)
+        string(name:'PROJECT_PATH',  defaultValue: '/Users/thaile/.jenkins/home/workspace/OCB_iOS/ocb/OCB.prj', description:'KATALON project path', trim: true)
+        string(name:'KRE_PATH',  defaultValue: '/Applications/KREngine.app/Contents/MacOS', description:'KATALON Runtime Engine path', trim: true)
+    }      
+
+    stages {
+        stage('Stage 1: Checkout') {
+            steps {
+                echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
+                checkout([
+                    $class: 'GitSCM', 
+                    branches: [[name: "*/${params.GITLAB_BRANCH}"]], 
+                    doGenerateSubmoduleConfigurations: false, 
+                    extensions: [], 
+                    submoduleCfg: [], 
+                    userRemoteConfigs: [[
+                        name: 'origin',
+                        credentialsId: "GITLAB_CREDS",
+                        url: "${params.GITLAB_URL}"]]
+                ])
+            }
+        }
+        stage('Stage 2: Test Katalon project') {
+            steps {
+                echo 'Executing Katalon project...'
+
+                withCredentials([string(credentialsId: 'K_API_KEY', variable: 'K_API_KEY')]) {
+                sh '''#!/bin/bash
+                cd "${KRE_PATH}"
+                ./katalonc -noSplash -runMode=console -projectPath="/Users/thaile/.jenkins/home/workspace/OCB_iOS/ocb/OCB.prj" -retry=0 -testSuitePath="Test Suites/Regression test - iOS" -browserType="iOS" -deviceId="00008020-000E01DE2212002E" -executionProfile="default" -apiKey="3b93d77e-2d37-421a-9ca9-4810a7b9c844" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true
+                '''
+              }
+            }
+
+        }
+    }
+    post {
+        always {
+            echo 'Clean up...'
+step([$class: 'WsCleanup'])
+                        /* clean up our workspace */
+            deleteDir()
+            /* clean up tmp directory */
+            dir("${workspace}@tmp") {
+                deleteDir()
+            }
+            /* clean up script directory */
+            dir("${workspace}@script") {
+                deleteDir()
+            }
+        }
+    }
+}

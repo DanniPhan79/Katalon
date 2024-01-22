@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtBankname</name>
+   <tag></tag>
+   <elementGuidId>33492ea1-8b14-4b56-a4a4-9dd2758c6f2a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and (normalize-space(.)='Recipient account' or normalize-space(.)='Tên người thụ hưởng')])/following::dd[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fb4a4ba6-d06d-4ed7-a01b-10e8780cb567</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>eb-analytics</name>
+      <type>Main</type>
+      <value>{event: 'click', action:'Click', category:'=Menu', label:item.title}</value>
+      <webElementGuid>3e93db18-de6f-41b0-acbb-f69d153f49e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Chuyển nhận tiền</value>
+      <webElementGuid>3f169390-5eec-40aa-bebc-d6ebf4df3fea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;side-nav&quot;)/ul[@class=&quot;nav-ul&quot;]/li[@class=&quot;active&quot;]/div[@class=&quot;ahref&quot;]/span[2]</value>
+      <webElementGuid>e1ab8bc4-fe36-4031-b3ba-8c3e68a8966a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

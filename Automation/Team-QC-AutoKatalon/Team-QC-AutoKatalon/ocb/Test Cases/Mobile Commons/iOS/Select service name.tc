@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select service name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9304de33-a561-4808-aeeb-459ee29848d8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fe25dd7e-866b-4bcd-bca5-94bff14bb9e7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>edad486f-bc1e-4485-a88f-d9b1c6d794f0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.timeout</defaultValue>
+      <description></description>
+      <id>fe25dd7e-866b-4bcd-bca5-94bff14bb9e7</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>edad486f-bc1e-4485-a88f-d9b1c6d794f0</id>
+      <masked>false</masked>
+      <name>serviceName</name>
+   </variable>
+</TestCaseEntity>

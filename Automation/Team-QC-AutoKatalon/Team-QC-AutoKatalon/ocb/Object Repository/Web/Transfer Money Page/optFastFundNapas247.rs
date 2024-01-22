@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>optFastFundNapas247</name>
+   <tag></tag>
+   <elementGuidId>eb15878a-610e-462c-8f65-36099d2b0188</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ui-select-choices-row-79-2 > span.ui-select-choices-row-inner</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[@id = 'ngx-otp-input-0'])[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>690afee7-6a2f-4d10-a2f9-5950947a51f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-select-choices-row-inner</value>
+      <webElementGuid>b6a946ee-ee99-4e88-8d03-0715b0343fa6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Chuyển tiền nhanh NAPAS 247</value>
+      <webElementGuid>81ac26a1-f8a8-4ce9-8008-d6206e29e299</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ui-select-choices-row-79-2&quot;)/span[@class=&quot;ui-select-choices-row-inner&quot;]</value>
+      <webElementGuid>7593b472-2e40-459b-a7c9-5d6a62da168d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

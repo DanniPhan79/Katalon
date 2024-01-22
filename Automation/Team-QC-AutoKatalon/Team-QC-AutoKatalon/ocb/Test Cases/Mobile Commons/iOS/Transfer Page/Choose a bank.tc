@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Choose a bank</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7b59d43a-4e02-4e30-ae11-484ef7d08071</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7889157b-a237-47c4-856b-ead3c4cb8f8b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f49eafff-9253-4000-8951-a75be4b201aa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>35089ae2-c8ec-4a9b-a526-0b9894824471</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.G_shortTimeout</defaultValue>
+      <description></description>
+      <id>7889157b-a237-47c4-856b-ead3c4cb8f8b</id>
+      <masked>false</masked>
+      <name>shortTimeout</name>
+   </variable>
+   <variable>
+      <defaultValue>'dong a'</defaultValue>
+      <description></description>
+      <id>f49eafff-9253-4000-8951-a75be4b201aa</id>
+      <masked>false</masked>
+      <name>bankName</name>
+   </variable>
+   <variable>
+      <defaultValue>'0129837294'</defaultValue>
+      <description></description>
+      <id>35089ae2-c8ec-4a9b-a526-0b9894824471</id>
+      <masked>false</masked>
+      <name>accountNumber</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Get And Enter OTP To Topup</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c93d577-2803-482e-b736-59a1570bc810</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e0562386-2d94-45c5-9109-83732321c357</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>be79c410-32f2-4902-b3a1-6c54b4a60a97</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ecf7ec4-4405-4700-ae0a-7aa7d86b81d3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>01723952-49a3-423e-a98c-9280bcf7eec7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2f220ab5-f183-436c-a64f-b41eb015c0d6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.G_longTimeout</defaultValue>
+      <description></description>
+      <id>e0562386-2d94-45c5-9109-83732321c357</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://10.102.60.7:8060/sms.aspx '</defaultValue>
+      <description></description>
+      <id>be79c410-32f2-4902-b3a1-6c54b4a60a97</id>
+      <masked>false</masked>
+      <name>urlGetOtp</name>
+   </variable>
+   <variable>
+      <defaultValue>'551'</defaultValue>
+      <description></description>
+      <id>4ecf7ec4-4405-4700-ae0a-7aa7d86b81d3</id>
+      <masked>false</masked>
+      <name>soDt</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>01723952-49a3-423e-a98c-9280bcf7eec7</id>
+      <masked>false</masked>
+      <name>Otp</name>
+   </variable>
+   <variable>
+      <defaultValue>'OTP GIAO DICH'</defaultValue>
+      <description></description>
+      <id>2f220ab5-f183-436c-a64f-b41eb015c0d6</id>
+      <masked>false</masked>
+      <name>msgOTPValid</name>
+   </variable>
+</TestCaseEntity>

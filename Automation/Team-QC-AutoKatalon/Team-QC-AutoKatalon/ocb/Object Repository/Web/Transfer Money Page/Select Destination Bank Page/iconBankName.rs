@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>iconBankName</name>
+   <tag></tag>
+   <elementGuidId>07823aea-6f45-4b44-9bb4-9452ce50abbc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class = &quot;bank-list__item-info&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.item > img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>8917709b-95a1-48cd-88cf-fed87a0af948</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-src</name>
+      <type>Main</type>
+      <value>https://www.ocb.com.vn/uploads/cdn/banks/24.png</value>
+      <webElementGuid>de73bfd1-1ef5-4bd0-b527-84c22b075ba7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>165px</value>
+      <webElementGuid>0a13cc43-5f37-4bc6-972c-a03150e503d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>90px</value>
+      <webElementGuid>637a9b58-39ac-4ce7-84e4-3394167a02c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://www.ocb.com.vn/uploads/cdn/banks/24.png</value>
+      <webElementGuid>2b7cd836-7307-49fb-a0ba-d94917c627c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;main-content&quot;]/div[@class=&quot;animate-on am-fade-and-scale drawer-content&quot;]/eb-ocb-full-screen-widget[1]/div[@class=&quot;payments_miniapp&quot;]/div[1]/div[1]/div[@class=&quot;eb-screen-content&quot;]/div[1]/div[@class=&quot;animate-on am-fade-and-scale&quot;]/div[1]/section[@class=&quot;payments-recipients&quot;]/div[@class=&quot;rb-content-view--framed form rb-content-view&quot;]/div[@class=&quot;rb-content-view__placeholder&quot;]/div[@class=&quot;rb-content-view__content&quot;]/div[@class=&quot;rb-content-view__inner&quot;]/div[@class=&quot;bd-form-panel--responsive bd-form-panel&quot;]/div[@class=&quot;rb-multistep-form rb-multistep-form-step-fill&quot;]/div[@class=&quot;row bd-form-content&quot;]/ng-transclude[1]/div[1]/div[1]/rb-payment-recipients-fill[1]/form[@class=&quot;ng-invalid ng-invalid-required ng-dirty ng-valid-parse&quot;]/div[@class=&quot;ocb-design bd-form&quot;]/rb-recipient-location[1]/div[2]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-6 col-sm-6 col-md-3 col-lg-3&quot;]/a[@class=&quot;item&quot;]/img[1]</value>
+      <webElementGuid>8254294a-180d-4ab8-8640-760707b2b849</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

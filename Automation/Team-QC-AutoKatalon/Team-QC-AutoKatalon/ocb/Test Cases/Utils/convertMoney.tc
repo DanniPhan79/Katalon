@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>convertMoney</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f828a2fd-eb53-4038-99d1-384aacf598f7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9bcb09eb-aabc-42f6-a36d-3912f6efa06f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5196c68c-aa3a-4db9-ab98-335e0f8095de</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5423f556-73f0-40d9-861e-7b3320f0c383</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9bcb09eb-aabc-42f6-a36d-3912f6efa06f</id>
+      <masked>false</masked>
+      <name>money</name>
+   </variable>
+   <variable>
+      <defaultValue>','</defaultValue>
+      <description></description>
+      <id>5196c68c-aa3a-4db9-ab98-335e0f8095de</id>
+      <masked>false</masked>
+      <name>delimiter</name>
+   </variable>
+   <variable>
+      <defaultValue>'.'</defaultValue>
+      <description></description>
+      <id>5423f556-73f0-40d9-861e-7b3320f0c383</id>
+      <masked>false</masked>
+      <name>replace_delimiter</name>
+   </variable>
+</TestCaseEntity>

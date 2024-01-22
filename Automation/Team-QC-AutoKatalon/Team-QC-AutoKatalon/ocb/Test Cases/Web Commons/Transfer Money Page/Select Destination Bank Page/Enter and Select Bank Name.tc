@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Enter and Select Bank Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a193f3a-cb5f-4bbf-ad63-4e866032065a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1fcd19e4-57f5-44e9-9fe5-93d95dbe7bf0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1fcd19e4-57f5-44e9-9fe5-93d95dbe7bf0</id>
+      <masked>false</masked>
+      <name>destinationBank</name>
+   </variable>
+</TestCaseEntity>

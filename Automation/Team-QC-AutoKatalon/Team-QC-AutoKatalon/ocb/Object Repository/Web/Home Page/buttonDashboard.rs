@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>buttonDashboard</name>
+   <tag></tag>
+   <elementGuidId>43dd469f-9f73-4cf8-a315-2fbdd99f61a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[@class='nav-ul'])//following::div/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>aeedc48b-a526-4d0f-a128-bd49c5f729e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>currency == 'VND'</value>
+      <webElementGuid>8b119c4a-256a-4b9a-9c61-480f31bc90cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bd-amount__value mg-right</value>
+      <webElementGuid>754fdcaf-f87e-4deb-b319-70bcffc3c1f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>a01b5133-00b8-4bb6-ac12-75d7a8201d9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accounts&quot;)/div[@class=&quot;widget-tile-content&quot;]/div[@class=&quot;widget-content-inner&quot;]/div[@class=&quot;horizontal-split-panels&quot;]/section[3]/div[@class=&quot;slide-widget-container&quot;]/div[1]/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-10&quot;]/div[@id=&quot;slide-widget-content&quot;]/ul[@class=&quot;widget-slide-box&quot;]/li[1]/div[1]/div[1]/div[@class=&quot;accounts widget-content&quot;]/div[1]/div[1]/div[2]/div[@class=&quot;bd-amount&quot;]/span[@class=&quot;bd-amount__value mg-right&quot;]</value>
+      <webElementGuid>bbbb1b5b-6b13-4a17-a567-3fefb58f7a33</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

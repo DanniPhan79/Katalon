@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>inputOtp</name>
+   <tag></tag>
+   <elementGuidId>73799ce2-f977-47af-91fd-5edcce9b4dba</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>android.widget.EditText</value>
+      <webElementGuid>8afe1c1d-36b6-4448-80b0-378c404804c0</webElementGuid>
+   </webElementProperties>
+   <locator>(//android.widget.FrameLayout[@resource-id=&quot;vn.com.ocb.awe.uat:id/otp_textview&quot;])[2]/android.widget.TextView</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
+</MobileElementEntity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Select login method</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed9c6b9b-18d6-4d0d-b989-4cebcd57186f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>66b8403e-4913-404a-b90f-0b5f23d36c29</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>54a43d39-f35f-43a1-b2ae-981e70b0c758</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.timeout</defaultValue>
+      <description></description>
+      <id>66b8403e-4913-404a-b90f-0b5f23d36c29</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>54a43d39-f35f-43a1-b2ae-981e70b0c758</id>
+      <masked>false</masked>
+      <name>loginMethod</name>
+   </variable>
+</TestCaseEntity>
